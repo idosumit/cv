@@ -20,43 +20,43 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Sumit Pokharel",
+  initials: "SP",
+  location: "Setagaya, Tokyo, Japan",
+  locationLink: "https://www.google.com/maps/place/Setagaya+City/",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Software Engineer @ Company R. Empowering change through AI.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I am a business student turned software engineer. I am driven by a desire to contribute to society through Machine Learning and AI. I like doing random AI projects, uploading them to GitHub, and sharing my struggles and understandings here as well as on LinkedIn. I am skilled in Python and have used it to build my projects as well as during my internships.",
+  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGanRW-cmpKwA/profile-displayphoto-shrink_400_400/0/1702404009797?e=1710374400&v=beta&t=bLyFf3ysIZm7wGFn0ACN-eaj2qxtoPdBzeA0aNJCctw",
+  personalWebsiteUrl: "https://sumit-ml.com/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "psumit.sv@gmail.com",
+    tel: "+81 080 9803 4674",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/idosumit",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/sumit-pokharel/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/sumit_ml",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Ritsumeikan Asia Pacific University",
+      degree: "Bachelor's Degree in Business Administration",
+      start: "2019",
+      end: "2023",
     },
   ],
   work: [
