@@ -64,13 +64,13 @@ export const RESUME_DATA = {
     {
       company: "Rakuten Group, Inc.",
       link: "https://global.rakuten.com/",
-      badges: ["Onsite", "Full-time"],
+      badges: ["Full-time"],
       title: "Software Engineer",
       start: "Apr 2024",
       end: "Present",
       description: (
         <ul>
-          <li> Currently undergoing on-the-job training as an Applications Engineer. </li>
+          <li>Currently undergoing on-the-job training as an Applications Engineer.</li>
           <li><strong>Skills:</strong> Java, Docker, Kubernetes, Jira, React, Node.js.</li>
         </ul>
         )
@@ -81,6 +81,7 @@ export const RESUME_DATA = {
       badges: ["Onsite", "Internship"],
       title: "Machine Learning Intern",
       start: "Jul 2023",
+      end: "Jul 2023",
       description: (
         <ul>
           <li>• Delivered a Python script to streamline the conversion of digital text into handwritten images from a directory with 1+ million images of handwritten characters, and OCR-based character recognition.</li>
@@ -91,8 +92,8 @@ export const RESUME_DATA = {
       },
     {
       company: "Mitsubishi Fuso Truck and Bus Corporation",
-      link: "",
-      badges: ["Remote", "Internship"],
+      link: "https://www.mitsubishi-fuso.com/en/",
+      badges: ["Remote"],
       title: "Data Analytics Intern",
       start: "Feb 2023",
       end: "Jun 2023",
