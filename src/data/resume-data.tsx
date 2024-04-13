@@ -1,38 +1,19 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Sumit Pokharel",
   initials: "SP",
-  location: "Setagaya, Tokyo, Japan",
-  locationLink: "https://www.google.com/maps/place/Setagaya+City/",
+  location: "Tokyo, Japan",
+  locationLink: "https://www.google.com/maps/place/Tokyo/",
   about:
-    "Software Engineer @ Company R. Empowering change through AI.",
+    "Software Engineer",
   summary:
     "I am a business student turned software engineer. I am driven by a desire to contribute to society through Machine Learning and AI. I like doing random AI projects, uploading them to GitHub, and sharing my struggles and understandings here as well as on LinkedIn. I am skilled in Python and have used it to build my projects as well as during my internships.",
   avatarUrl: "https://media.licdn.com/dms/image/D5603AQGanRW-cmpKwA/profile-displayphoto-shrink_400_400/0/1702404009797?e=1710374400&v=beta&t=bLyFf3ysIZm7wGFn0ACN-eaj2qxtoPdBzeA0aNJCctw",
-  personalWebsiteUrl: "https://sumit-ml.com/",
+  personalWebsiteUrl: "https://idosumit.com/",
   contact: {
-    email: "psumit.sv@gmail.com",
-    tel: "+81 080 9803 4674",
+    email: "sumit@idosumit.com",
+    tel: "+81 070 9014 1742",
     social: [
       {
         name: "GitHub",
@@ -54,225 +35,77 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Ritsumeikan Asia Pacific University",
-      degree: "Bachelor's Degree in Business Administration",
+      degree: "Bachelor's Degree in Business Administration, CGPA 3.65",
       start: "2019",
       end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
+      company: "Rakuten Group, Inc.",
+      link: "https://global.rakuten.com/",
+      badges: ["Onsite", "Full-time"],
+      title: "Software Engineer",
+      start: "Apr 2024",
+      end: "Present",
+      description: (
+        <ul>
+          <li> Currently undergoing on-the-job training as an Applications Engineer. </li>
+          <li><strong>Skills:</strong> Java, Docker, Kubernetes, Jira, React, Node.js.</li>
+        </ul>
+        )
+      },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
+      company: "BEST PATH RESEARCH",
+      link: "https://bestpathresearch.com/en/",
+      badges: ["Onsite", "Internship"],
+      title: "Machine Learning Intern",
+      start: "Jul 2023",
+      description: (
+        <ul>
+          <li>• Delivered a Python script to streamline the conversion of digital text into handwritten images from a directory with 1+ million images of handwritten characters, and OCR-based character recognition.</li>
+          <li>• Advanced the development of an application to correct distortions in Japanese receipts by synthesizing a dataset of artificially altered images and training an advanced open-source model to rectify these distortions.</li>
+          <li><strong>Skills:</strong> Python, NLP, Pattern Recognition, OCR, Computer Vision.</li>
+        </ul>
+        )
+      },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+      company: "Mitsubishi Fuso Truck and Bus Corporation",
+      link: "",
+      badges: ["Remote", "Internship"],
+      title: "Data Analytics Intern",
+      start: "Feb 2023",
+      end: "Jun 2023",
+      description: (
+        <ul>
+          <li>• Leveraged Python and Excel to extract, clean, and analyze market prices from 5+ online parts traders' websites to support competitor price analysis.</li>
+          <li>• Analyzed response data from over 600 employees on company-wide e-learning practices using Excel & PowerBI and presented findings and strategic recommendations to company executives, influencing executive strategies on learning platforms.</li>
+          <li><strong>Skills:</strong> Python, Excel, PowerBI.</li>
+        </ul>
+        )
+      },
   ],
+
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "Japanese (N2)",
+    "Java",
+    "Kubernetes",
+    "Jira",
   ],
+
   projects: [
     {
-      title: "Consultly",
+      title: "idosumit.com",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Personal Website",
+        "Personal Branding",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "My personal website to showcase my personal brand and projects. I also use it to write about my experiences and learnings.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "idosumit.com",
+        href: "https://idosumit.com/",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
