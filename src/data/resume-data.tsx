@@ -29,7 +29,7 @@ export const RESUME_DATA = {
     "Software Engineer",
   summary:
     "A business student turned Software Engineer (currently a SWE at Rakuten). I am driven by a desire to contribute to society through Machine Learning and AI. As such, I am passionate about engaging in discussions regarding career transitions into the dynamic field of AI and breaking into the tech industry.",
-  avatarUrl: "https://drive.google.com/file/d/1zi2-fOmWuqBfrKNPChv40VAj0sG3_MAA/view?usp=sharing",
+  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGupcx4Zd7TFg/profile-displayphoto-shrink_400_400/0/1713016609526?e=1718236800&v=beta&t=CJXGd3cLULqvBu5MTqBY20vCCb01Ay84E1q5HQzP9tA",
   personalWebsiteUrl: "https://idosumit.com/",
   contact: {
     email: "sumit@idosumit.com",
