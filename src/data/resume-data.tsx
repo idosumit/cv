@@ -98,7 +98,7 @@ export const RESUME_DATA = {
       end: "Jun 2023",
       description: (
         <ul>
-          <li>• Leveraged Python and Excel to extract, clean, and analyze market prices from 5+ online parts traders' websites to support competitor price analysis.</li>
+          <li>• Leveraged Python and Excel to extract, clean, and analyze market prices from 5+ online parts trader websites to support competitor price analysis.</li>
           <li>• Analyzed response data from over 600 employees on company-wide e-learning practices using Excel & PowerBI and presented findings and strategic recommendations to company executives, influencing executive strategies on learning platforms.</li>
           <li><strong>Skills:</strong> Python, Excel, PowerBI.</li>
         </ul>
