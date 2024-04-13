@@ -28,8 +28,8 @@ export const RESUME_DATA = {
   about:
     "Software Engineer",
   summary:
-    "I am a business student turned software engineer. I am driven by a desire to contribute to society through Machine Learning and AI. I like doing random AI projects, uploading them to GitHub, and sharing my struggles and understandings here as well as on LinkedIn. I am skilled in Python and have used it to build my projects as well as during my internships.",
-  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGanRW-cmpKwA/profile-displayphoto-shrink_400_400/0/1702404009797?e=1710374400&v=beta&t=bLyFf3ysIZm7wGFn0ACN-eaj2qxtoPdBzeA0aNJCctw",
+    "A business student turned Software Engineer (currently a SWE at Rakuten). I am driven by a desire to contribute to society through Machine Learning and AI. As such, I am passionate about engaging in discussions regarding career transitions into the dynamic field of AI and breaking into the tech industry.",
+  avatarUrl: "https://drive.google.com/file/d/1zi2-fOmWuqBfrKNPChv40VAj0sG3_MAA/view?usp=sharing",
   personalWebsiteUrl: "https://idosumit.com/",
   contact: {
     email: "sumit@idosumit.com",
@@ -62,9 +62,9 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Rakuten Group, Inc.",
+      company: "Rakuten Group, Inc. ",
       link: "https://global.rakuten.com/",
-      badges: ["Full-time"],
+      badges: ["Onsite", "Full-time"],
       title: "Software Engineer",
       start: "Apr 2024",
       end: "Present",
@@ -76,7 +76,7 @@ export const RESUME_DATA = {
         )
       },
     {
-      company: "BEST PATH RESEARCH",
+      company: "BEST PATH RESEARCH ",
       link: "https://bestpathresearch.com/en/",
       badges: ["Onsite", "Internship"],
       title: "Machine Learning Intern",
@@ -91,9 +91,9 @@ export const RESUME_DATA = {
         )
       },
     {
-      company: "Mitsubishi Fuso Truck and Bus Corporation",
+      company: "Mitsubishi Fuso Truck and Bus Corporation ",
       link: "https://www.mitsubishi-fuso.com/en/",
-      badges: ["Remote"],
+      badges: ["Remote", "Internship"],
       title: "Data Analytics Intern",
       start: "Feb 2023",
       end: "Jun 2023",
