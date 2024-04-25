@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       description: (
         <ul>
           <li>Currently undergoing on-the-job training as an Applications Engineer.</li>
-          <li><strong>Skills:</strong> Java, Docker, Kubernetes, Jira, React, Node.js.</li>
+          <li><strong>Skills:</strong> JavaScript, TypeScript, React, Express.js, Docker, Kubernetes, Jira.</li>
         </ul>
         )
       },
@@ -110,9 +110,10 @@ export const RESUME_DATA = {
   skills: [
     "Python",
     "Japanese (N2)",
-    "Java",
-    "Kubernetes",
-    "Jira",
+    "C",
+    "JavaScript",
+    "Express.js",
+    "React",
   ],
 
   projects: [
