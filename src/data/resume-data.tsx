@@ -112,7 +112,6 @@ export const RESUME_DATA = {
     "Japanese (N2)",
     "C",
     "JavaScript",
-    "Express.js",
     "React",
   ],
 
