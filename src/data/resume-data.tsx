@@ -1,23 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -70,8 +50,8 @@ export const RESUME_DATA = {
       end: "Present",
       description: (
         <ul>
-          <li>Currently undergoing on-the-job training as an Applications Engineer.</li>
-          <li><strong>Skills:</strong> JavaScript, TypeScript, React, Express.js, Docker, Kubernetes, Jira.</li>
+          <li>Currently undergoing a brand new UI revamp for the checkout webpages of Ichiba -- the largest e-commerce shopping site in Japan -- as a front-end developer.</li>
+          <li><strong>Toolkit:</strong> JavaScript, TypeScript, React, Docker, Node.js, Bitbucket.</li>
         </ul>
         )
       },
@@ -112,6 +92,7 @@ export const RESUME_DATA = {
     "Japanese (N2)",
     "C",
     "JavaScript",
+    "TypeScript",
     "React",
   ],
 
