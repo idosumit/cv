@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Software Engineer",
   summary:
     "A business student turned Software Engineer (currently a SWE at Rakuten). I am driven by a desire to contribute to society through Machine Learning and AI. As such, I am passionate about engaging in discussions regarding career transitions into the dynamic field of AI and breaking into the tech industry.",
-  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGupcx4Zd7TFg/profile-displayphoto-shrink_400_400/0/1713016609526?e=1718236800&v=beta&t=CJXGd3cLULqvBu5MTqBY20vCCb01Ay84E1q5HQzP9tA",
+  avatarUrl: "https://cdn.hashnode.com/res/hashnode/image/upload/v1703624451509/lGrRjRhhO.jpg",
   personalWebsiteUrl: "https://idosumit.com/",
   contact: {
     email: "sumit@idosumit.com",
@@ -50,7 +50,7 @@ export const RESUME_DATA = {
       end: "Present",
       description: (
         <ul>
-          <li>Currently undergoing a brand new UI revamp for the checkout webpages of Ichiba -- the largest e-commerce shopping site in Japan -- as a front-end developer.</li>
+          <li>• Currently undergoing a brand new UI revamp for the checkout webpages of Ichiba — the largest e-commerce shopping site in Japan — as a front-end developer.</li>
           <li><strong>Toolkit:</strong> JavaScript, TypeScript, React, Docker, Node.js, Bitbucket.</li>
         </ul>
         )
@@ -90,7 +90,6 @@ export const RESUME_DATA = {
   skills: [
     "Python",
     "Japanese (N2)",
-    "C",
     "JavaScript",
     "TypeScript",
     "React",
