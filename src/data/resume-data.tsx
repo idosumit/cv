@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer",
   summary:
-    "A business student turned Software Engineer (currently a SWE at Rakuten). I am driven by a desire to contribute to society through Machine Learning and AI. As such, I am passionate about engaging in discussions regarding career transitions into the dynamic field of AI and breaking into the tech industry.",
+    "A business student turned Software Engineer. I am driven by a desire to contribute to society through Machine Learning and AI. As such, I am passionate about engaging in discussions regarding career transitions into the dynamic field of AI and breaking into the tech industry.",
   avatarUrl: "https://media.licdn.com/dms/image/D5603AQGupcx4Zd7TFg/profile-displayphoto-shrink_400_400/0/1713016609526?e=1724889600&v=beta&t=xzq6SBaMWCW6Nm4-2JSRMQsBj8feCE23c1s0hEFGGE0",
   personalWebsiteUrl: "https://idosumit.com/",
   contact: {
@@ -44,21 +44,21 @@ export const RESUME_DATA = {
     {
       company: "Rakuten Group, Inc. ",
       link: "https://global.rakuten.com/",
-      badges: ["Onsite", "Full-time"],
+      badges: ["Full-time"],
       title: "Software Engineer",
       start: "Apr 2024",
       end: "Present",
       description: (
         <ul>
           <li>• Currently undergoing a brand new UI revamp for the checkout webpages of Ichiba — the largest e-commerce shopping site in Japan — as a front-end developer.</li>
-          <li><strong>Toolkit:</strong> JavaScript, TypeScript, React, Docker, Node.js, Bitbucket.</li>
+          <li><strong>Toolkit:</strong> JavaScript, TypeScript, React.js, Bitbucket.</li>
         </ul>
         )
       },
     {
       company: "BEST PATH RESEARCH ",
       link: "https://bestpathresearch.com/en/",
-      badges: ["Onsite", "Internship"],
+      badges: ["Internship", "Full-time"],
       title: "Machine Learning Intern",
       start: "Jul 2023",
       end: "Jul 2023",
@@ -73,7 +73,7 @@ export const RESUME_DATA = {
     {
       company: "Mitsubishi Fuso Truck and Bus Corporation ",
       link: "https://www.mitsubishi-fuso.com/en/",
-      badges: ["Remote", "Internship"],
+      badges: ["Internship", "Part-time"],
       title: "Data Analytics Intern",
       start: "Feb 2023",
       end: "Jun 2023",
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
     "Japanese (N2)",
     "JavaScript",
     "TypeScript",
-    "React",
+    "React.js",
   ],
 
   projects: [
