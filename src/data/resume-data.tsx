@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Software Engineer",
   summary:
     "A business student turned Software Engineer. I am driven by a desire to contribute to society through Machine Learning and AI. As such, I am passionate about engaging in discussions regarding career transitions into the dynamic field of AI and breaking into the tech industry.",
-  avatarUrl: "https://media.licdn.com/dms/image/D5603AQGupcx4Zd7TFg/profile-displayphoto-shrink_400_400/0/1713016609526?e=1724889600&v=beta&t=xzq6SBaMWCW6Nm4-2JSRMQsBj8feCE23c1s0hEFGGE0",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQG-Me2HvxUF_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728395112833?e=1734566400&v=beta&t=VpzDfWLvI0lPd_33h6eXDHFSVyEV7reO4yGIKaBeVGw",
   personalWebsiteUrl: "https://idosumit.com/",
   contact: {
     email: "sumit@idosumit.com",
